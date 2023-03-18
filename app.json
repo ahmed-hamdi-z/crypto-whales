@@ -1,0 +1,33 @@
+{
+    "name": "telegram-auto_forward",
+    "description": "A bot to forward msg from one tg channel/group to another easily",
+    "keywords": [
+      "telegram",
+      "forward",
+      "auto-forward",
+      "send"
+    ],
+    "repository": "https://github.com/Ayush7445/telegram-forwarder_auto",
+    "env": {
+        "APP_ID": {
+            "description": 23753568
+        },
+        "API_HASH": {
+            "description": "2ed47ef64c16e55d6047c7b23fccd5ee"
+        },
+        "FROM_CHANNEL": {
+            "description": "-1001547964535 -1001849764929"
+        },
+        "TO_CHANNEL": {
+            "description": "-1001841136908"
+        },
+        "SESSION": {
+            "description": "1BJWap1wBuzf62IeNuaIiFkaiL-bom2kLqHhMxw5rodxtv1fDILUw_dq2hzkXaUUCui0Z5oMI91JdmfUe5wLPfpB3BcmazTfiqPyVLOqvZST2EsEBCBGiONTHQMW16B_qULI_yRWd6_p2COk1dwWljtiM7Y_2KtHoucJq4BqT6G5chbSjjHIYqusKG8rQ3distaTSmyPTBWFXVIHpmY2sjarnQ7Lc-JfN_0UscJupcbOdo3RY6bUX7enL31c37SoGK-uU_049O-l45KyIVnnmTSfQF5ZZUrEtGQM1aJL0vH6XSm942tXfCXQyDbwc0EGm9mjSUVBbGwmUL4jyahTMezQDQa5bJQE="
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
